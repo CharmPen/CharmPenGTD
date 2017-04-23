@@ -1,0 +1,107 @@
+/*div {
+    border: 1px solid black;
+}*/
+
+#pageContainer {
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+/*    background-color:black; */ 
+}
+
+#pageHeader {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 110px;
+    background-color:blue;
+}
+
+#pageMenu {
+    position: relative;
+    left: 10%;
+    width: 50%;
+    display: inline-block;
+    background-color: blue;
+}
+
+#topNewInpt {
+    position: relative;
+    left: 5%;
+    width: 27%;
+    display: inline-block;
+    visibility: hidden;
+    background-color: skyblue;
+}
+
+#topNewInptTxt {
+    width: 75%;
+}
+
+#topNewInptBnt {
+    width: 25%;
+}
+    
+#toolContainer {
+    position: relative;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+    background-color:red;
+}
+
+#inputContainer {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 100%;
+    background-color: skyblue;
+}
+    
+#todoContainer {
+    position: relative;
+    top:0px;
+/*    left: 5%; */
+    width: 30%;
+    height:100%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: blue;
+}
+
+#proContainer {
+    position: relative;
+    top:0px;
+/*    left: 5%; */
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: green;
+}
+
+#detailsContainer {
+    position: relative;
+    top:0px;
+/*    left: 5%; */
+    width: 40%;
+    height: 100%;
+    display: none;
+    vertical-align: top;
+    background-color: purple;
+}
+
+h3 {
+    text-align: center;
+}
+
+.selPro {
+    background-color: purple;
+}
+
+.selStep {
+    border: 1px solid #000000;
+}
