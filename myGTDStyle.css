@@ -27,6 +27,12 @@
     background-color: blue;
 }
 
+.downMenuContainer {
+    position: absolute;
+    display: none;
+    background-color:white;
+}
+
 #topNewInpt {
     position: relative;
     left: 5%;
@@ -103,5 +109,9 @@ h3 {
 }
 
 .selStep {
+    border: 1px solid #000000;
+}
+
+.selInpt {
     border: 1px solid #000000;
 }
